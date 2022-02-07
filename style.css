@@ -1,0 +1,57 @@
+body{
+    position: relative;
+    width: 100%;
+    height: 1500px;
+    background: linear-gradient(180deg, #FED6E3 0%, #A8EDEA 100%);
+    margin: 0;
+
+}
+h1{
+    position: absolute;
+    width: 546px;
+    height: 47px;
+    left: 687px;
+    top: 37px;
+    font-family: Bradley Hand, cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 47px;
+    text-align: center;
+    color: #000000;
+}
+.frame{
+    position: absolute;
+    width: 941px;
+    height: 1211px;
+    left: 526px;
+    top: 144px;
+    border: 6px solid rgba(206, 110, 185, 0.56);
+    border-radius: 10px;
+}
+.card-age{
+    position: absolute;
+    width: 150px;
+    height: 33px;
+    left: 161px;
+    top: 35px;
+    margin: 0;
+    font-family: Bradley Hand, cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 33px;
+    color: #000000;
+
+}
+input{
+    position: absolute;
+    width: 546px;
+    height: 49px;
+    left: 161px;
+    top: 79px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 3px solid rgba(193, 99, 225, 0.28);
+    box-sizing: border-box;
+    border-radius: 24px;
+}
