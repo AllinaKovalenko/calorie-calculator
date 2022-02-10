@@ -10,11 +10,22 @@
 <div>
     <h1>Калькулятор расчёта калорий</h1>
 </div>
-<section class="frame">
-    <div class="card">
-        <h3 class="card-age">Ваш возраст</h3>
-        <input type="number" id="num1"/>
+<div class="container">
+    <div>
+        <div class="card">
+            <label for="age" class="card-title">Ваш возраст</label>
+            <input type="number" id="age" onchange="ageHandler()"/>
+        </div>
+        <div class="card">
+            <label for="growth" class="card-title">Ваш рост</label>
+            <input type="number" id="growth" onchange="growthHandler()"/>
+        </div>
+        <div class="card">
+            <label for="weight" class="card-title">Ваш вес</label>
+            <input type="number" id="weight" onchange="weightHandler()"/>
+        </div>
     </div>
-</section>
+</div>
+<script src="script.js"></script>
 </body>
 </html>

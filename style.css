@@ -20,7 +20,7 @@ h1{
     text-align: center;
     color: #000000;
 }
-.frame{
+.container{
     position: absolute;
     width: 941px;
     height: 1211px;
@@ -29,13 +29,10 @@ h1{
     border: 6px solid rgba(206, 110, 185, 0.56);
     border-radius: 10px;
 }
-.card-age{
-    position: absolute;
-    width: 150px;
-    height: 33px;
-    left: 161px;
-    top: 35px;
-    margin: 0;
+.card-title{
+    position: relative;
+    padding: 41px 161px 89px;
+    display: inline-block;
     font-family: Bradley Hand, cursive;
     font-style: normal;
     font-weight: 500;
@@ -45,7 +42,7 @@ h1{
 
 }
 input{
-    position: absolute;
+    position: relative;
     width: 546px;
     height: 49px;
     left: 161px;
